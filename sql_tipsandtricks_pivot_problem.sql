@@ -1,7 +1,6 @@
 /* 
 Objective : Write a SQL to get max of salary for each department in separate column
 
-
 Expected output:
 -----------------------------------------------------------------------------------------
 MAX_SALARY_DEPTNO_10 | MAX_SALARY_DEPTNO_20 | MAX_SALARY_DEPTNO_30 | MAX_SALARY_DEPTNO_40
