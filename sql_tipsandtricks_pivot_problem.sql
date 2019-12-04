@@ -18,7 +18,6 @@ create table dept(
   constraint pk_dept primary key (deptno)  
 );
 
-
 -- Insert row into DEPT table using named columns.
 insert into DEPT (DEPTNO, DNAME, LOC)
 values(10, 'ACCOUNTING', 'NEW YORK');
@@ -32,8 +31,6 @@ values(30, 'SALES', 'CHICAGO');
 
 insert into dept  
 values(40, 'OPERATIONS', 'BOSTON');
-
-
 
 
 create table emp(  
