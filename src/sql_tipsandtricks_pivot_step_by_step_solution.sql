@@ -170,13 +170,38 @@ __Step 3:__
 
 /* Answer */
 SELECT 
-     MAX(CASE WHEN dept.deptno = 10 THEN sal ELSE 0 END) AS max_salary_deptno_10
-    ,MAX(CASE WHEN dept.deptno = 20 THEN sal ELSE 0 END) AS max_salary_deptno_20
-    ,MAX(CASE WHEN dept.deptno = 30 THEN sal ELSE 0 END) AS max_salary_deptno_30
-    ,MAX(CASE WHEN dept.deptno = 40 THEN sal ELSE 0 END) AS max_salary_deptno_40
+     MAX(
+         CASE 
+           WHEN dept.deptno = 10
+             THEN sal 
+           ELSE 0 
+         END
+        ) AS max_salary_deptno_10
+    ,MAX(
+         CASE 
+           WHEN dept.deptno = 20
+             THEN sal 
+           ELSE 0 
+         END
+        ) AS max_salary_deptno_20
+    ,MAX(
+         CASE 
+           WHEN dept.deptno = 30
+             THEN sal 
+           ELSE 0 
+         END
+        ) AS max_salary_deptno_30
+    ,MAX(
+         CASE 
+           WHEN dept.deptno = 40
+             THEN sal 
+           ELSE 0 
+         END
+        ) AS max_salary_deptno_40
 
-FROM dept LEFT JOIN emp  --inner join
-    ON emp.deptno = dept.deptno
+FROM dept 
+LEFT JOIN emp
+  ON emp.deptno = dept.deptno
 	
 /* 
 __Output__
