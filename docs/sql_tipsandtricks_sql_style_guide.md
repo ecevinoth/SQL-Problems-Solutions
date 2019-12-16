@@ -24,10 +24,9 @@
   * Price/revenue fields should be in decimal currency (e.g. 19.99 for $19.99; many app databases store prices as integers in cents). If non-decimal currency is used, indicate this with suffix, e.g. price_in_cents.
   * Avoid reserved words as column names
   * Consistency is key! Use the same field names across models where possible, e.g. a key to the customers table should be named customer_id rather than user_id.
-  
 
 ## Uniform suffixes
-Use the correct suffix where appropriate
+ Use the correct suffix where appropriate
   * **_id**     : a unique identifier such as a column that is a primary key.
   * **_status** : flag value or some other status of any type such as publication_status.
   * **_total**  : the total or sum of a collection of values.
@@ -38,4 +37,3 @@ Use the correct suffix where appropriate
   * **_tally**  : a count.
   * **_size**   : the size of something such as a file size or clothing.
   * **_addr**   : an address for the record could be physical or intangible such as ip_addr.
-  
