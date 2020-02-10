@@ -8,3 +8,6 @@ To discuss following items
 ## SQL Tricks and Tips
 ## sql_tipsandtricks_pivot_problem.sql
 Q: Pivot data from row to columns (Simple and easy way)
+
+## Interview questions
+Q: Daily sales trend by product category?
